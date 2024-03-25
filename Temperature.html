@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Temperature</title>
+    <script src="Temperature.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="Temperature.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <form action="" onsubmit="weatherInfo(); return false">
+      <!-- stape 1 -->
+      <div class="hero-image">
+        <div class="wrap">
+          <div class="search">
+            <input
+              type="text"
+              class="searchTerm"
+              placeholder="search for a city...."
+              name=""
+              id="cunteryName"
+            />
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+          <div class="bg-text">
+            <div class="Maincontaner1">
+              <h1 id="location"></h1>
+              <h1 id="currentTemp"></h1>
+              <img src="" alt="" id="WeatherImage" />
+              <h2 id="Date"></h2>
+              <h2 id="winddirection"></h2>
+              <h2 id="humidity"></h2>
+
+
+              <!-- Small Boders -->
+              <div  class="MainBoder" >
+
+              <div class="boder1" >
+                <h1 id="Date1"></h1>
+                <img src="" alt="" id="Icon" />
+                <h1 id="temperatre1"></h1>
+                <h1 id="sky1"></h1>
+              </div>
+
+              <div class="boder2 " >
+                <h1 id="Date1"></h1>
+                <img src="" alt="" id="Icon" />
+                <h1 id="temperatre1"></h1>
+                <h1 id="sky1"></h1>
+              </div>
+
+
+              <div class="boder3" >
+                <h1 id="Date1"></h1>
+                <img src="" alt="" id="Icon" />
+                <h1 id="temperatre1"></h1>
+                <h1 id="sky1"></h1>
+              </div>
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

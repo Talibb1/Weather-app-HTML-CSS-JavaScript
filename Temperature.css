@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  margin: 0;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 150%;
+}
+
+/* Background  borders */
+
+.bg-text {
+  background-color: rgb(243, 233, 233);
+  background-color: rgba(161, 165, 180, 0.596);
+  background-blend-mode: normal;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border: 3px solid #130f0f;
+  margin-top: 50px;
+  height: 550px;
+}
+
+/* Background Image */
+
+.hero-image {
+  background-image: url(./12.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 200vh;
+}
+
+/* The search bar change!*/
+
+.search {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+}
+
+.searchButton {
+  width: 50px;
+  height: 42px;
+  border: 1px solid #0c3338;
+  background: #061d20;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.searchTerm:focus {
+  color: #061618;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #05191b;
+  border-right: none;
+  padding: 8px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.wrap {
+  width: 60%;
+}
+
+/* small Boders */
+
+
+.MainBoder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+.boder1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(243, 233, 233);
+  background-color: rgba(161, 165, 180, 0.596);
+  background-blend-mode: normal;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border: 3px solid #130f0f;
+}
+
+.boder2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(243, 233, 233);
+  background-color: rgba(161, 165, 180, 0.596);
+  background-blend-mode: normal;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border: 3px solid #130f0f;
+}
+
+.boder3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(243, 233, 233);
+  background-color: rgba(161, 165, 180, 0.596);
+  background-blend-mode: normal;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border: 3px solid #130f0f;
+}
